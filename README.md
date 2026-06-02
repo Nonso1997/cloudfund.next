@@ -1,4 +1,5 @@
 # Cloudfund Next.js
+Crypto Investment
 
 This is a Vercel-ready rewrite of the Cloudfund application using Next.js and Supabase.
 
@@ -38,3 +39,4 @@ Use the values from your Supabase project dashboard:
 - Roadmap page
 
 > Admin pages are not included in this initial rewrite but can be added using the same auth patterns.
+

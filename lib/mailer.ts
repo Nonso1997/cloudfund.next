@@ -1,4 +1,5 @@
-import nodemailer from 'nodemailer';
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const nodemailer: any = require('nodemailer');
 
 const host = process.env.SMTP_HOST;
 const port = process.env.SMTP_PORT ? Number(process.env.SMTP_PORT) : undefined;

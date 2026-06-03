@@ -6,7 +6,7 @@ const user = process.env.SMTP_USER;
 const pass = process.env.SMTP_PASS;
 const from = process.env.EMAIL_FROM || `no-reply@localhost`;
 
-let transport: nodemailer.Transporter | null = null;
+let transport: ReturnType<typeof nodemailer.createTransport> | null = null;
 
 function getTransport() {
   if (transport) return transport;
